@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
+sec = a*3600 + b*60 + c
+ch = (sec)/24/3600
+print('seconds:',(sec),'day part:',(ch))
